@@ -6,7 +6,6 @@ intents.typing = True
 intents.presences = True
 
 def is_authorized(ctx):
-    # Your authorization check logic here
     return True
 intents = discord.Intents.all()
 intents.members = True
